@@ -7,8 +7,8 @@
 # Project ideas.
 
 1. [Music player](https://github.com/jack8120/JD-Player/tree/main/idea2)
-2. ecommerce site
-3. twitter style clone
+2. [ecommerce site](https://github.com/jack8120/JD-Player/new/main)
+
 
 
 
