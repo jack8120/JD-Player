@@ -1,10 +1,10 @@
-#Project - 201
+# Project - 201
 
 # Brainstorming ideas:
 
 -------------------------------------------
 
-#Project ideas.
+# Project ideas.
 
 1. Music player
 2. ecommerce site
@@ -12,7 +12,7 @@
 
 # Chosen project - JD Player (music player) 
 
-#idea description
+# Idea description
 
 Spotify style music player.
 
