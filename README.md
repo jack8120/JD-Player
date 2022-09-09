@@ -4,9 +4,11 @@
 
 -------------------------------------------
 
-Project ideas.
+#Project ideas.
+
 1 - Music player
 2 - ecommerce site
+3 - twitter style clone
 
 # Chosen project - JD Player (music player) 
 
