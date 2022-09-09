@@ -7,7 +7,7 @@
 # Project ideas.
 
 1. [Music player](https://github.com/jack8120/JD-Player/tree/main/idea2)
-2. [ecommerce site](https://github.com/jack8120/JD-Player/new/main)
+2. [ecommerce site](https://github.com/jack8120/JD-Player/blob/main/E-commerce)
 
 
 
