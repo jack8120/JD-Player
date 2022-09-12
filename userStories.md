@@ -1,6 +1,6 @@
 # User Stories
 
-Users can be defined as listeners or artists. 
+Users can be defined as **listeners** or **artists**. 
 
 # Listeners
 
