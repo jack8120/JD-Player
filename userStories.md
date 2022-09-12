@@ -8,15 +8,28 @@ Users can be defined as listeners or artists.
 
 ### Priority Scale : 0 -> 5 (Low to High)
 
+#### 5 
 
-- Listners want to be able to listen to tracks (5)   
-- Listners want to have offline functionality (1)
-- Listners want to create playlists (4)
-- Listners want to share songs / playlists (3)
+- Listners want to be able to listen to tracks (5) 
 - Listners want to have a simple interface (5)
-- Listners want to find new music (2)
+
+#### 4
+
+- Listners want to create playlists (4)
 - Listners want to shuffle songs (4)
 - Listners want to see artist art work (4)
+
+#### 3
+
+- Listners want to share songs / playlists (3)
+
+#### 2
+
+- Listners want to find new music (2)
+
+#### 1
+ 
+- Listners want to have offline functionality (1)
 
 
 # Artists
