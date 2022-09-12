@@ -22,6 +22,6 @@ Artists could include;
 - Bands with online following
 - Podcast creators
 
-Artists want to upload new music
-Artists want to Reach new audiences
-Artists want to Get fair royalty splits
+- Artists want to upload new music
+- Artists want to Reach new audiences
+- Artists want to Get fair royalty splits
