@@ -24,8 +24,8 @@ Users can be defined as listeners or artists.
 We want to attract the audio creator community
 Artists could include;
 
-- Bands with online following
-- Podcast creators
+Bands with online following
+Podcast creators
 
 - Artists want to upload new music (2)
 - Artists want to Reach new audiences (2)
