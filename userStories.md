@@ -4,14 +4,14 @@ Users can be defined as listeners or artists.
 
 # Listeners
 
-Listners want to be able to listen to tracks 
-Listners want to have offline functionality
-Listners want to create playlists
-Listners want to share songs / playlists
-Listners want to have a simple interface
-Listners want to find new music
-Listners want to shuffle songs
-Listners want to see artist art work
+- Listners want to be able to listen to tracks 
+- Listners want to have offline functionality
+- Listners want to create playlists
+- Listners want to share songs / playlists
+- Listners want to have a simple interface
+- Listners want to find new music
+- Listners want to shuffle songs
+- Listners want to see artist art work
 
 
 # Artists
