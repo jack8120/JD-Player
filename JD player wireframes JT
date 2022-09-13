@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-13T18:25:15.684Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15" etag="_wOxVC0_n4V705P6XG1Z" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-13T18:36:32.003Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15" etag="S5NhF4cxwDX0THZNN0QX" version="20.3.0" type="github">
   <diagram id="K7B_IDPUO4SVGRr_i9Gj" name="Page-1">
     <mxGraphModel dx="1018" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="Id12eG7pRosDSnwmBB7D-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="120" width="600" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="Id12eG7pRosDSnwmBB7D-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Id12eG7pRosDSnwmBB7D-2" value="Menu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="120" width="100" height="360" as="geometry" />
         </mxCell>
         <mxCell id="Id12eG7pRosDSnwmBB7D-7" value="Header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -16,51 +16,29 @@
         <mxCell id="Id12eG7pRosDSnwmBB7D-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="480" width="600" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Id12eG7pRosDSnwmBB7D-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Id12eG7pRosDSnwmBB7D-10" value="More&amp;nbsp;&lt;br&gt;Controls" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="480" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Id12eG7pRosDSnwmBB7D-11" value="Player controls" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Id12eG7pRosDSnwmBB7D-11" value="Player Controls" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="480" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Id12eG7pRosDSnwmBB7D-12" value="Playing track &lt;br&gt;info" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="480" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Id12eG7pRosDSnwmBB7D-13" value="track&lt;br&gt;img" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Id12eG7pRosDSnwmBB7D-13" value="Track&lt;br&gt;img" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="480" width="60" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Id12eG7pRosDSnwmBB7D-19" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="260" y="390" width="460" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Id12eG7pRosDSnwmBB7D-8" value="" style="swimlane;startSize=0;" vertex="1" parent="Id12eG7pRosDSnwmBB7D-19">
-          <mxGeometry x="100" width="60" height="60" as="geometry">
-            <mxRectangle x="310" y="230" width="50" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Id12eG7pRosDSnwmBB7D-14" value="" style="swimlane;startSize=0;" vertex="1" parent="Id12eG7pRosDSnwmBB7D-19">
-          <mxGeometry width="60" height="60" as="geometry">
-            <mxRectangle x="310" y="230" width="50" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Id12eG7pRosDSnwmBB7D-15" value="" style="swimlane;startSize=0;" vertex="1" parent="Id12eG7pRosDSnwmBB7D-19">
-          <mxGeometry x="200" width="60" height="60" as="geometry">
-            <mxRectangle x="310" y="230" width="50" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Id12eG7pRosDSnwmBB7D-16" value="" style="swimlane;startSize=0;" vertex="1" parent="Id12eG7pRosDSnwmBB7D-19">
-          <mxGeometry x="310" width="60" height="60" as="geometry">
-            <mxRectangle x="310" y="230" width="50" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Id12eG7pRosDSnwmBB7D-17" value="" style="swimlane;startSize=0;container=0;" vertex="1" parent="Id12eG7pRosDSnwmBB7D-19">
-          <mxGeometry x="410" width="50" height="60" as="geometry">
-            <mxRectangle x="310" y="230" width="50" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Id12eG7pRosDSnwmBB7D-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="150" width="500" height="220" as="geometry" />
         </mxCell>
         <mxCell id="Id12eG7pRosDSnwmBB7D-21" value="User&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="120" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Id12eG7pRosDSnwmBB7D-24" value="Next &lt;br&gt;Track" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="590" y="255" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Id12eG7pRosDSnwmBB7D-25" value="Previous&lt;br&gt;Track" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="255" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Id12eG7pRosDSnwmBB7D-27" value="Playing &lt;br&gt;Track" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="380" y="220" width="180" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
