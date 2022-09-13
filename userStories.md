@@ -25,11 +25,11 @@ Users can be defined as listeners or artists.
 
 #### 2
 
-- Listners want to find new music 
+- ~~Listners want to find new music 
 
 #### 1
  
-- Listners want to have offline functionality 
+- ~~Listners want to have offline functionality 
 
 
 # Artists
@@ -40,6 +40,6 @@ Artists could include;
 Bands with online following
 Podcast creators
 
-- Artists want to upload new music (2)
-- Artists want to Reach new audiences (2)
-- Artists want to Get fair royalty splits (2)
+- ~~Artists want to upload new music (2)
+- ~~Artists want to Reach new audiences (2)
+- ~~Artists want to Get fair royalty splits (2)
