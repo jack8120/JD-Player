@@ -42,4 +42,22 @@
 
 ###
 
-Carousel
+Carousel for playing track, next track and previous track. 
+
+onclick event to switch tracks - next / previous. Art work switches with tracks.
+
+Media controls - _see above_
+
+Menu - Drop Down 
+Onclick - expand menu to show links to site pages. 
+
+`function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}`
+
+
+
+
