@@ -36,3 +36,9 @@ function random_file(){
   return audio_files[Math.floor(Math.random() * audio_files.length)];
 }
 
+
+# **Landing page**
+
+###
+
+Carousel
