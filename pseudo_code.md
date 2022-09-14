@@ -13,14 +13,14 @@
 - Create function to **pause** tracks
 - Create function to **skip** tracks
 
- `let play = document. getElementById("play");
- let audio = document. getElementById("track");
- button. addEventListener("click", function(){
- if(audio. paused){
- audio. play();
- button. innerHTML = "Pause";
- } else {
- audio. pause();`
+ `let play = document. getElementById("play");`  
+ `let audio = document. getElementById("track");`   
+ `button. addEventListener("click", function(){`  
+ `if(audio. paused){`  
+ `audio. play();`   
+ `button. innerHTML = "Pause";`   
+ `} else {`   
+ `audio. pause();`  
 
 ### Shuffle button
 
@@ -28,7 +28,7 @@
 
  `let audio_files = [`
  `"TRACKS/1.mp3",`
- "TRACKS/2.mp3",
+ `"TRACKS/2.mp3",`
  "TRACKS/3.mp3"
  ]
 
