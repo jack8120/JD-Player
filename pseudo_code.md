@@ -51,12 +51,12 @@ Media controls - _see above_
 Menu - Drop Down 
 Onclick - expand menu to show links to site pages. 
 
-`function openNav() {   
-  document.getElementById("mySidenav").style.width = "250px";   
-}   
-function closeNav() {  
-  document.getElementById("mySidenav").style.width = "0";  
-}`  
+`function openNav() {`       
+ `document.getElementById("mySidenav").style.width = "250px"; `      
+`}`       
+`function closeNav() { `     
+  `document.getElementById("mySidenav").style.width = "0";`      
+`}`      
 
 
 
