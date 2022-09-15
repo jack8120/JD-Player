@@ -61,13 +61,17 @@ Skip Back
 
 # **Landing page**
 
-###
+## Step 1
 
 **Carousel** for current track, next track and previous track. 
 
 onclick event to switch tracks - next / previous. Art work switches with tracks.
 
+## Step 2
+
 **Media** controls - _see above_
+
+## Step 3
 
 **Menu** - Drop Down 
 Onclick - expand menu to show links to site pages. 
@@ -79,15 +83,15 @@ Onclick - expand menu to show links to site pages.
   `document.getElementById("mySidenav").style.width = "0";`      
 `}`      
 
+
 # Form
 
-create a form for favourites - song, artist, genre, decade, age, etc. 
+## Step 1 
 
 create global variables for each input field.
 
-create...
-
-
+## Step 2
+create class for favourites
 
 ```
 
@@ -99,7 +103,9 @@ class favouritesForm //working title
              this.artist
              etc
             }
-            
+   
+ ## Step 3  
+   
    function formSubmitted(event){
        event.preventDefault():
        
@@ -107,6 +113,8 @@ class favouritesForm //working title
        favGenre = event.target.favgenre.value;
        etc
    }         
+   
+## Step 4   
    
    jackFavs = new favouritesForm(song, artist, genre, decade, age);`.  
    
