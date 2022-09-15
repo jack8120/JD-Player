@@ -18,6 +18,7 @@ Users can be defined as **listeners** or **artists**.
 - Listners want to create playlists 
 - Listners want to shuffle songs 
 - Listners want to see artist art work 
+- Listners want us to know what thier favourite genre/artists/album/songs are. Create favourites/request form
 
 #### 3
 
