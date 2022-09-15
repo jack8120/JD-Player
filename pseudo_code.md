@@ -123,6 +123,7 @@ class favouritesForm //working title
 favSongElement.innerHTML =  jackFavs.favSong;  
 favGenreElement.innerHTML = jackFavs.favGenre;  
 
-} ```
+} 
+```
 
 
