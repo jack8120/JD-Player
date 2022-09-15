@@ -66,7 +66,7 @@ create global variables for each input field.
 
 create...
 
-class 'favourites form' (working title)
+class 'favouritesForm' (working title)
        constructor (song, artist, genre, decade, age, etc)
             {
              this.song
@@ -78,9 +78,14 @@ class 'favourites form' (working title)
        event.preventDefault():
        
        favsong = event.target.favsong.value;
-       
-   
+       favgenre = event.target.favgenre.value;
+       etc
    }         
+   
+   jackfavs = new favouritesForm(song, artist, genre, decade, age);
+   
+   
+   
 
 
 
