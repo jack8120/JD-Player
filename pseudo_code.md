@@ -66,7 +66,7 @@ create global variables for each input field.
 
 create...
 
-class 'favouritesForm' (working title)
+```class 'favouritesForm' (working title)
        constructor (song, artist, genre, decade, age, etc)
             {
              this.song
@@ -82,9 +82,9 @@ class 'favouritesForm' (working title)
        etc
    }         
    
-   jackfavs = new favouritesForm(song, artist, genre, decade, age);
+   jackfavs = new favouritesForm(song, artist, genre, decade, age);`.  
    
-   
+   ```
    
 
 
