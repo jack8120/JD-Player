@@ -69,8 +69,18 @@ create...
 class 'favourites form' (working title)
        constructor (song, artist, genre, decade, age, etc)
             {
-             this.
+             this.song
+             this.artist
+             etc
             }
+            
+   function formsubmitted(event){
+       event.preventDefault():
+       
+       favsong = event.target.favsong.value;
+       
+   
+   }         
 
 
 
