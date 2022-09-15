@@ -103,9 +103,9 @@ class favouritesForm //working title
              this.artist
              etc
             }
-   
+   ```
  ## Step 3  
-   
+   ```
    function formSubmitted(event){
        event.preventDefault():
        
@@ -113,9 +113,9 @@ class favouritesForm //working title
        favGenre = event.target.favgenre.value;
        etc
    }         
-   
+   ```
 ## Step 4   
-   
+   ```
    jackFavs = new favouritesForm(song, artist, genre, decade, age);`.  
    
    
