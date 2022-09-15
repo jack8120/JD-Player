@@ -42,13 +42,13 @@
 
 ###
 
-Carousel for playing track, next track and previous track. 
+**Carousel** for current track, next track and previous track. 
 
 onclick event to switch tracks - next / previous. Art work switches with tracks.
 
-Media controls - _see above_
+**Media** controls - _see above_
 
-Menu - Drop Down 
+**Menu** - Drop Down 
 Onclick - expand menu to show links to site pages. 
 
 `function openNav() {`       
@@ -57,6 +57,8 @@ Onclick - expand menu to show links to site pages.
 `function closeNav() { `     
   `document.getElementById("mySidenav").style.width = "0";`      
 `}`      
+
+
 
 
 
