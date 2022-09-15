@@ -89,10 +89,11 @@ class favouritesForm //working title
    
    jackFavs = new favouritesForm(song, artist, genre, decade, age);`.  
    
-   ```
    
+   
+favSongElement.innerHTML =  jackFavs.favSong;  
+favGenreElement.innerHTML = jackFavs.favGenre;  
 
-
-
+} ```
 
 
