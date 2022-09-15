@@ -12,6 +12,12 @@
 
 ## Step 1 
 
+upload tracks
+
+create array called songAudiomp3
+
+## step 2
+
 create global var for 
 
 Play
@@ -20,7 +26,7 @@ Skip forward
 Skip Back
 // Shuffle
 
-## Step 2
+## Step 3
 
 - Create function to **play** tracks
 - Create function to **pause** tracks
@@ -34,6 +40,8 @@ Skip Back
  `button. innerHTML = "Pause";`   
  `} else {`   
  `audio. pause();`  
+
+## Step 4
 
 ### Shuffle button
 
