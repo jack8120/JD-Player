@@ -58,6 +58,19 @@ Onclick - expand menu to show links to site pages.
   `document.getElementById("mySidenav").style.width = "0";`      
 `}`      
 
+# Form
+
+create a form for favourites - song, artist, genre, decade, age, etc. 
+
+create global variables for each input field.
+
+create...
+
+class 'favourites form' (working title)
+       constructor (song, artist, genre, decade, age, etc)
+            {
+             this.
+            }
 
 
 
