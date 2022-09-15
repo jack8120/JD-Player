@@ -1,5 +1,6 @@
 # Music Player
 
+
 ## Music controls
 
 - Import Canvas media controls
@@ -8,6 +9,18 @@
 - Upload album artwork and organise into an image assest folder
 
 ### Functional Buttons
+
+## Step 1 
+
+create global var for 
+
+Play
+Pause
+Skip forward
+Skip Back
+// Shuffle
+
+## Step 2
 
 - Create function to **play** tracks
 - Create function to **pause** tracks
