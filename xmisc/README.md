@@ -20,7 +20,11 @@
 
 # Idea description
 
-Spotify style music player.
+Spotify / Apple Music style music player.
 
-Suggested features
+# [User Stories](https://github.com/jack8120/JD-Player/blob/main/userStories.md)
+
+Our primary focus is on our listeners. There is potential to expand users to include artist / creators who could use the platform to generate exposure for their work but this is beyonf the scope of this project. 
+
+
 
