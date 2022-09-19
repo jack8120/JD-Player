@@ -1,0 +1,99 @@
+body {
+    
+    
+}
+
+header {
+    /* border: 1px solid black; */
+    /* height: 10%; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+
+}
+
+#logo {
+    /* border: 1px solid red; */
+    width: 150px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logopic {
+    object-fit: contain;
+}
+
+
+#title {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#spacer {
+    /* border: 1px solid red; */
+    width: 150px;
+    height: 80px;
+}
+
+main {
+    border: 1px solid green;
+    min-height: 1000px;
+    background-image: url('/images/formBackground.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+    
+
+
+
+#formboxin {
+    /* border: 1px solid blue; */
+    background-color: whitesmoke;
+    opacity: 0.95;
+    width: 50%;
+    max-height: 80%;
+    min-height: 80%;
+    margin: 50px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    margin-bottom: 300px;
+}
+
+#formboxout {
+    /* border: 1px solid blue; */
+    background-color: whitesmoke;
+    opacity: 0.95;
+    width: 50%;
+    max-height: 80%;
+    min-height: 80%;
+    margin: 50px;  
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 100px;
+    margin-bottom: 300px;
+    margin-right: 120px;
+}
+
+/* #formPic {
+    border: 1px solid red;
+    width: 40%;
+    height: 80%;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */

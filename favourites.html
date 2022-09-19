@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Favourites</title>
+        <link rel="stylesheet" href="style/favstyle.css">
+
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <img src="https://place-hold.it/150x80/ddd" alt="logo">
+        </div>
+        <div id="title">
+            <h1>Favourites</h1>
+        </div>
+        <div id="spacer"></div>
+        </header>
+
+        <main>
+            <div id="left">
+            <div id="formboxin"> 
+                <form name="favouritesForm" onsubmit="formSubmitted(event)">
+                    <h2>What kind of music would you like to see on 
+                        JDPlayer?</h2><br>
+                    Favourite Song  : <input type="text" name="favSong" id="favSong" placeholder="Enter Favourite Song" required/> <br>
+
+                    Favourite Artist: <input type="text" name="favArtist" id="favArtist" placeholder="Enter Favourite Artist" required/> <br>
+                    <!-- <label> Choose your favourite Genre from the list: </label><select name="Genre" id="favGenre">
+                        <option value="">--Choose an option--</option>
+                        <option value="Pop">Pop</option>
+                        <option value="Rock">Rock</option>
+                        <option value="Hip Hop">Hip Hop</option>
+                        <option value="Jazz">Jazz</option>
+                        <option value="Metal">Metal</option>
+                    </select><br>
+                    Date of Birth   : <input type="date" name="DOB" required/> -->
+
+
+
+                    <br>
+                    <button type="submit">Submit</button>
+                </form> 
+            </div>
+            <!-- <div id="formPic">
+                <img src="https://place-hold.it/x/ddd" alt="picture">
+            </div> -->
+        </div>
+
+        <div id="right">
+            
+            <div id="formboxout">
+                <h2>Your Favourites are: </h2><br>
+                <h5> <span id=faveSong></span></h5><br>
+                <h5> <span id=faveArtist></span></h5><br>    
+
+
+            </div>
+        </div>
+        
+
+        </main>
+        <script src="scripts/favScripts.js"></script>
+    </body>
+
+
+</html>
