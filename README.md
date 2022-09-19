@@ -26,5 +26,7 @@ Spotify / Apple Music style music player.
 
 Our primary focus is on our listeners. There is potential to expand users to include artist / creators who could use the platform to generate exposure for their work but this is beyonf the scope of this project. 
 
+# [Pseudo code](https://github.com/jack8120/JD-Player/blob/main/pseudo_code.md)
+
 
 

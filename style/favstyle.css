@@ -62,7 +62,8 @@ main {
     background-color: whitesmoke;
     opacity: 0.95;
     width: 50%;
-    height: 80%;
+    max-height: 80%;
+    min-height: 80%;
     margin: 50px;  
     display: flex;
     justify-content: center;
@@ -76,12 +77,13 @@ main {
     background-color: whitesmoke;
     opacity: 0.95;
     width: 50%;
-    height: 80%;
+    max-height: 80%;
+    min-height: 80%;
     margin: 50px;  
     /* display: flex;
     justify-content: center;
     align-items: center; */
-    padding: 100px;
+    padding: 120px;
     margin-bottom: 300px;
 }
 
