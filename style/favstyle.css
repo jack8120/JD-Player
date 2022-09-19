@@ -83,8 +83,9 @@ main {
     /* display: flex;
     justify-content: center;
     align-items: center; */
-    padding: 120px;
+    padding: 100px;
     margin-bottom: 300px;
+    margin-right: 120px;
 }
 
 /* #formPic {

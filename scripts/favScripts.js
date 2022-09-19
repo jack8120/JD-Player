@@ -35,7 +35,7 @@ function formSubmitted(event){
 
 // pass value to new instance jackFav
 
-    jackFave = new favourites(favSong);
+    jackFave = new favourites(favSong, favArtist);
 
     favouriteSongElement.innerHTML = jackFave.favSong;
     favouriteArtistElement.innerHTML = jackFave.favArtist;
