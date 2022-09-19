@@ -1,0 +1,32 @@
+body {
+    background-color: silver;
+   
+    /* Smoothly transition the background color */
+    transition: background-color .5s;
+  }
+
+  .player {
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+   
+  .details {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 25px;
+  }
+   
+  .track-art {
+    margin: 25px;
+    height: 250px;
+    width: 250px;
+    background-image: url("/JD-Player/images/playSymbol.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15%;
+  }
