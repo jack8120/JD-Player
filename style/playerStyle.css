@@ -25,7 +25,7 @@ body {
     margin: 25px;
     height: 250px;
     width: 250px;
-    background-image: url("/JD-Player/images/playSymbol.jpeg");
+    background-image: url("/images/playSymbol.jpeg");
     background-size: cover;
     background-position: center;
     border-radius: 15%;
