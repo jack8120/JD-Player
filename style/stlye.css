@@ -1,0 +1,47 @@
+
+
+header {
+    border: 1px solid black;
+    /* height: 10%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    /* border: 1px solid red; */
+    width: 150px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logopic {
+    object-fit: contain;
+}
+
+
+#title {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#user {
+    /* border: 1px solid red; */
+    width: 150px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel {
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px;
+}
