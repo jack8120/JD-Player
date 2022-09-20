@@ -35,6 +35,7 @@ let track_list = [
     },
 ]
 
+// Load track
 function loadTrack(track_index) {
     clearInterval(updateTimer);
     resetValues();
@@ -43,11 +44,14 @@ function loadTrack(track_index) {
     current_track.load();
 }
 
-// Button Functionality
+// Button Functionality for play pause
 function playpauseTrack() {
+
+    console.log('checking');
     
-    if (!isPlaying) playTrack();
-    else pauseTrack();
+    if (!isPlaying) {playTrack();}
+
+    else {pauseTrack();}
   }
    
   // Play the loaded track
