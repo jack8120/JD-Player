@@ -90,7 +90,6 @@ function playpauseTrack() {
     // Load and play the new track
     loadTrack(track_index);
     playTrack();
-
   }
 
   loadTrack(track_index);
