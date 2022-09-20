@@ -24,41 +24,52 @@
         <main>
             <!-- Main page content starts here -->
 
+            <!-- Menu starts here -->
+
             
-            <container id="menu">
+            <!-- <container id="menu">
               <div></div>
               <div></div>
-            </container>
+            </container> -->
 
             <!-- Carousel code starts here -->
 
             <container class="carousel">
                 <div class="myTracks">
-                  <img id="prev" src="https://place-hold.it/200x250/ddd" alt="Previous track image">
+                  <img id="prev" src="images/trackArt/trackArt1.jpeg" alt="Previous track image">
+                  <div class="texts" >Previous</div>
                 </div>
 
                 <div class="myTracks">
-                  <img id="playing" src="https://place-hold.it/400x500/ddd" alt="Playing track image">
+                  <img id="playing" src="images/trackArt/trackArt2.jpeg" alt="Playing track image">
+                  <div class="texts" >Playing</div>
                 </div>
 
                 <div class="myTracks">
-                  <img id="next" src="https://place-hold.it/200x250/ddd" alt="next track image">
+                  <img id="next" src="images/trackArt/trackArt3.jpeg" alt="next track image">
+                  <div class="texts" >Next</div>
                 </div>
-                
+
             </container>
+           
             <!--Slideshow ends-->
 
-
-        <!-- </main>
+            <!-- Control pannel (footer) starts here -->
+        </main>
         <container id="controlPannel">
-          <div id=""></div>
+          <div>
+            <div id="skip">
+              <a class="prev" onclick="plusSlides(-1)"><button>Prev</button></a>
+              <a class="next" onclick="plusSlides(1)"><button>Next</button></a>
+            </div>
+          </div>
 
-        </container> -->
+        </container>
         
 
         
 
-
+        <script src="scripts/landingScript.js"></script>
     </body>
 
 </html>

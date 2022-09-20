@@ -54,22 +54,6 @@ main {
     margin: 50px;
 }
 
-#prev {
-    max-width: 100%;
-    max-height: 100%;
-    op
-}
-
-#playing {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-#next {
-    max-width: 100%;
-    max-height: 100%;
-}
-
 
 
 header {
@@ -115,10 +99,10 @@ main {
 }
 
 
-#menu {
+/* #menu {
     border: 1px solid red;
-    width: 20%;
-}
+    max-width: 150px;
+} */
 
 .carousel {
     border: 1px solid blue;
@@ -131,7 +115,7 @@ main {
 #prev {
     max-width: 100%;
     max-height: 100%;
-    op
+    
 }
 
 #playing {
@@ -142,4 +126,23 @@ main {
 #next {
     max-width: 100%;
     max-height: 100%;
+}
+
+#controlPannel {
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    
+}
+
+.myTracks {
+    max-width: 50%;
+    max-height: 50%;
+    
+}
+
+.texts {
+    
 }
