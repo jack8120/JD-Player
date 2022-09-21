@@ -1,5 +1,12 @@
+body  {
+    background-image: url("/images/landingBackground.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 header {
     /* border: 1px solid black; */
+    
     height: 10%;
     display: flex;
     justify-content: space-between;
@@ -7,8 +14,8 @@ header {
 }
 
 #logo {
-    /* border: 1px solid red; */
-    width: 20%;
+    border: 1px solid red;
+    width: 150px;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -16,7 +23,7 @@ header {
 }
 
 #logopic {
-    width:100%;
+    width:150px;
     height: auto;
     max-width:300px;
     max-height: 200px;
@@ -31,7 +38,7 @@ header {
     align-items: center;
 }
 
-#user {
+#nav {
     /* border: 1px solid red; */
     width: 150px;
     height: 80px;
@@ -40,6 +47,19 @@ header {
     align-items: center;
 }
 
+.navButton {
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    height: 40px;
+    border-radius: 10px;
+
+}
+.navButton:hover {
+    background-color: aqua ;
+    box-shadow: 0px 15px 20px rgba(140, 154, 148, 0.4);
+    color: #fff;
+    transform: translateY(-4px);
+  }
+
 main {
     /* border: 1px solid red; */
     display: flex;
@@ -47,11 +67,11 @@ main {
     align-items: center;
 }
 
-/* 
+
 #menu {
     border: 1px solid red;
     width: 20%;
-} */
+}
 
 .carousel {
     /* border: 1px solid blue; */

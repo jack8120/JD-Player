@@ -82,6 +82,7 @@ main {
     align-items: center;
     padding: 100px;
     margin-bottom: 300px;
+    border-radius: 10px;
 }
 
 #formboxout {
@@ -98,6 +99,7 @@ main {
     padding: 100px;
     margin-bottom: 300px;
     margin-right: 120px;
+    border-radius: 10px;
 }
 
 /* #formPic {
