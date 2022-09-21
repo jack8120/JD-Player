@@ -1,6 +1,6 @@
 header {
-    border: 1px solid black;
-    /* height: 10%; */
+    /* border: 1px solid black; */
+    height: 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,6 +16,9 @@ header {
 }
 
 #logopic {
+    width:100%;
+    max-width:150px;
+    height: 400px;
     object-fit: contain;
 }
 
@@ -37,112 +40,59 @@ header {
 }
 
 main {
+    /* border: 1px solid red; */
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-
+/* 
 #menu {
     border: 1px solid red;
     width: 20%;
-}
+} */
 
 .carousel {
-    border: 1px solid blue;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 50px;
-}
-
-
-
-header {
-    border: 1px solid black;
-    /* height: 10%; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#logo {
-    /* border: 1px solid red; */
-    width: 150px;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#logopic {
-    object-fit: contain;
-}
-
-
-#title {
     /* border: 1px solid blue; */
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#user {
-    /* border: 1px solid red; */
-    width: 150px;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-main {
-    display: flex;
-}
-
-
-/* #menu {
-    border: 1px solid red;
-    max-width: 150px;
-} */
-
-.carousel {
-    border: 1px solid blue;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
     margin: 50px;
-}
-
-#prev {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 50%;
+    max-height: auto;
+    min-height: 100%;
     
 }
 
-#playing {
-    max-width: 100%;
-    max-height: 100%;
-}
 
-#next {
-    max-width: 100%;
-    max-height: 100%;
+
+
+.trackArt {
+    border: 3px solid pink;
+    width:100%;
+    max-width: 400px;
+    height: 400px;
+    
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .5} 
+    to {opacity: 1}
+  }
+
+.texts {
+    
 }
 
 #controlPannel {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     height: auto;
-    
-}
-
-.myTracks {
-    max-width: 50%;
-    max-height: 50%;
-    
-}
-
-.texts {
     
 }
