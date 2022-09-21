@@ -8,7 +8,7 @@ header {
 
 #logo {
     /* border: 1px solid red; */
-    width: 150px;
+    width: 20%;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -17,9 +17,10 @@ header {
 
 #logopic {
     width:100%;
-    max-width:150px;
-    height: 400px;
-    object-fit: contain;
+    height: auto;
+    max-width:300px;
+    max-height: 200px;
+    /* object-fit: contain; */
 }
 
 
@@ -60,7 +61,7 @@ main {
     margin: 50px;
     max-width: 50%;
     max-height: auto;
-    min-height: 100%;
+   
     
 }
 
@@ -70,8 +71,10 @@ main {
 .trackArt {
     border: 3px solid pink;
     width:100%;
-    max-width: 400px;
-    height: 400px;
+    min-width: 300px;
+    max-width: 300px;
+    max-height: 300px;
+    min-height: 300px;
     
 }
 .fade {
