@@ -61,3 +61,20 @@ body {
     /* Smoothly transition the opacity */
     transition: opacity .2s;
   }
+
+  /* Define the slider width so that it scales */
+.slider_container {
+    width: 75%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .seek_slider {
+    width: 60%;
+  }
+   
+  .volume_slider {
+    width: 30%;
+  }
