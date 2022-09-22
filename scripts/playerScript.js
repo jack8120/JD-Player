@@ -51,10 +51,38 @@ let track_list =
             path: '../liqwyd-get-away.mp3'
         },
         {
-            name: "Annoying stupid piano AGAIN",
-            artist: "Rock",
-            image: "../JDmp.jpeg",
-            path: '../sample1.mp3'
+            name: "Highfly",
+            artist: "Jay Someday",
+            image: "../highfly.jpeg",
+            path: '../jay-someday-highfly.mp3'
+        },
+
+        {
+            name: "Workout",
+            artist: "Alyex",
+            image: "../workoutalex.jpeg",
+            path: '../alex-productions-workout.mp3'
+        },
+
+        {
+            name: "Sports Rock",
+            artist: "Alyex",
+            image: "../alexpro.jpeg",
+            path: '../alex-productions-sport-rock-workout-hard.mp3'
+        },
+
+        {
+            name: "Folk Traveller",
+            artist: "Essentials",
+            image: "../folk.jpeg",
+            path: '../alex-productions-folk-travel-vlog-folk.mp3'
+        },
+
+        {
+            name: "The Future",
+            artist: "MaxKo",
+            image: "../maxko.jpeg",
+            path: '../maxkomusic-building-the-future.mp3'
         },
 
     ]
