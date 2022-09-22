@@ -139,21 +139,21 @@ function playpauseTrack() {
         
       }
    
-    // Load and play the new track
-    //loadTrack(track_index);
-    //playTrack();
-  
-   
-    // Go back to the last track if the
-    // current one is the first in the track list
+ 
   function prevTrack() {
-    if (track_index > 0)
-      track_index -= 1;
-    else track_index = track_list.length - 1;
-     
-    // Load and play the new track
-    loadTrack(track_index);
-    playTrack();
+    showTrack.removeChild(current_track); 
+    
+      track_index--;
+       insideElement.removeAttribute('src');
+       insideElement.setAttribute('src',track_list[track_index].path);
+       
+        
+       showTrack.appendChild(current_track);  
+       current_track.load();
+       current_track.play();
+       track_name.innerHTML = track_list[track_index].name;
+       track_artist.innerHTML = track_list[track_index].artist;
+       track_art.style.backgroundImage = `url(${track_list[track_index].image})`;
   }
 
   function seekTo() {
