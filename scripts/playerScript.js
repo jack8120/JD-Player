@@ -37,21 +37,21 @@ let playable = document.getElementById('createdAudio');
 
 // Define the list of tracks that have to be played
 let track_list = 
-    [
+    [ 
         {
-            name: "1st track test",
+            name: "Annoying stupid piano",
             artist: "JD player",
             image: "../JDmp.jpeg",
             path: '../sample1.mp3'
         },
         {
-            name: "2nd track test",
+            name: "wierd piano thins",
             artist: "Guitar",
             image: "../JDmp.jpeg",
             path: '../second.mp3'
         },
         {
-            name: "3rd track test",
+            name: "Annoying stupid piano AGAIN",
             artist: "Rock",
             image: "../JDmp.jpeg",
             path: '../sample1.mp3'
@@ -59,7 +59,7 @@ let track_list =
 
     ]
     
-
+    //
 
 // Load track
 function loadTrack(track_index) {
@@ -160,7 +160,7 @@ function playpauseTrack() {
     // Calculate the seek position by the
     // percentage of the seek slider
     // and get the relative duration to the track
-    seekto = curr_track.duration * (seek_slider.value / 100);
+    seekTo = curr_track.duration * (seek_slider.value / 100);
    
     // Set the current track position to the calculated seek position
     curr_track.currentTime = seekTo;
