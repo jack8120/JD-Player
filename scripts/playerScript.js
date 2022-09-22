@@ -39,16 +39,16 @@ let playable = document.getElementById('createdAudio');
 let track_list = 
     [ 
         {
-            name: "Annoying stupid piano",
-            artist: "JD player",
-            image: "../JDmp.jpeg",
-            path: '../sample1.mp3'
+            name: "Ready",
+            artist: "Le-Gang",
+            image: "../legang.jpeg",
+            path: '../le-gang-ready.mp3'
         },
         {
-            name: "wierd piano thins",
-            artist: "Guitar",
-            image: "../JDmp.jpeg",
-            path: '../second.mp3'
+            name: "Get Away",
+            artist: "Liqwyd",
+            image: "../getaway.jpeg",
+            path: '../liqwyd-get-away.mp3'
         },
         {
             name: "Annoying stupid piano AGAIN",
