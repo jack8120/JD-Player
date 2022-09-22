@@ -119,25 +119,30 @@ function playpauseTrack() {
     // current one is the last in the track list
   function nextTrack() {
 
+    
     showTrack.removeChild(current_track); 
     
-      track_index ++;
-      insideElement.removeAttribute('src');
-      insideElement.setAttribute('src',track_list[track_index].path);
+      track_index++;
+       insideElement.removeAttribute('src');
+       insideElement.setAttribute('src',track_list[track_index].path);
        
         
-      showTrack.appendChild(current_track);  
-      current_track.load();
-      current_track.play();
-      track_name.innerHTML = track_list[track_index].name;
-      track_artist.innerHTML = track_list[track_index].artist;
-      track_art.style.backgroundImage = `url(${track_list[track_index].image})`;
-    
+       showTrack.appendChild(current_track);  
+       current_track.load();
+       current_track.play();
+       track_name.innerHTML = track_list[track_index].name;
+       track_artist.innerHTML = track_list[track_index].artist;
+       track_art.style.backgroundImage = `url(${track_list[track_index].image})`;
+      
+        // Go back to the first track if the
+        // current one is the last in the track list
+        
+      }
    
     // Load and play the new track
     //loadTrack(track_index);
     //playTrack();
-  }
+  
    
     // Go back to the last track if the
     // current one is the first in the track list
