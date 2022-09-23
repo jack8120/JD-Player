@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>JD Player</title>
+        <link rel="stylesheet"
+        href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <link rel="stylesheet" href="style/stlye.css">
+
+    </head>
+    <body>
+        
+        <header>
+            <!-- Header starts here -->
+            <div id="logo">
+              <a href="index.html"><img id="logopic"  src="images/logo.jpg" alt="logo"></a>
+      </div>
+      <div id="title">
+          <h1>J D Player</h1>
+      </div>
+      <div id="navButton">
+        <button class="navButton" ><a href="favourites.html">Favourites</a></button>
+
+
+      </div>
+            
+
+
+        </header>
+        <main>
+
+            
+            
+            <!-- Main page content starts here -->
+
+            <!-- Menu starts here -->
+
+            
+            
+
+            <!-- Carousel code starts here -->
+
+            <container class="carousel">
+
+                <div id="trackArt" class="track-art"></div>
+
+               
+
+                <!-- <div class="myTracks fade">
+                  <img class="trackArt" src="legang.jpeg" alt="Previous track image">
+                
+                </div>
+
+                <div class="myTracks fade">
+                  <img class="trackArt" src="getaway.jpeg" alt="Playing track image">
+                
+                </div>
+
+                <div class="myTracks fade">
+                  <img class="trackArt" src="highfly.jpeg" alt="next track image">
+                
+                </div>
+
+                <div class="myTracks fade">
+                    <img class="trackArt" src="workoutalex.jpeg" alt="next track image">
+                  
+                  </div>
+                  
+                  <div class="myTracks fade">
+                    <img class="trackArt" src="alexpro.jpeg" alt="next track image">
+                  
+                  </div>  
+
+                  <div class="myTracks fade">
+                    <img class="trackArt" src="folk.jpeg" alt="next track image">
+                  
+                  </div>
+
+                  <div class="myTracks fade">
+                    <img class="trackArt" src="maxko.jpeg" alt="next track image">
+                  
+                  </div> -->
+
+            </container>
+            
+            <div class="player">
+ 
+                <!--Displaying details -->
+                <div class="details">
+                  <!-- <div class="now-playing">PLAYING x OF y</div> -->
+                  <!-- <div class="track-art"></div> -->
+                  <div id="infoPos">
+                  <div class="track-name">Track Name</div>
+                  <div class="track-artist">Track Artist</div>
+                </div>
+                  <div id="showTrack"></div>
+                </div>
+             
+                <!--Track buttons -->
+            <div id="songNav">
+                <div class="buttons">
+                    <a class="prev" onclick="plusSlides(-1)">
+                  <div class="prev-track" onclick="prevTrack()" >
+                    <i class="fa fa-step-backward fa-2x"></i>
+                    </a>
+                    
+                  </div>
+                  <div class="playpause-track" onclick="playpauseTrack()">
+                    <i class="fa fa-play-circle fa-5x"></i>
+                  </div>
+                  <a class="next" onclick="plusSlides(1)">
+                  <div class="next-track" onclick="nextTrack()">
+                    <i class="fa fa-step-forward fa-2x"></i></a>
+                  </div>
+                  </div>
+               
+             
+                <!--Seek slider-->
+                
+                <div class="slider_container">
+                  <div class="current-time">00:00</div>
+                  <input type="range" min="1" max="100"
+                    value="0" class="seek_slider" onchange="seekTo()">
+                  <div class="total-duration">00:00</div>
+                </div>
+            </div> 
+                <!--Volume slider-->
+            <div id="volpos"> 
+                <div class="slider_container">
+                  <i class="fa fa-volume-down"></i>
+                  <input type="range" min="1" max="100"
+                    value="99" class="volume_slider" onchange="setVolume()">
+                  <i class="fa fa-volume-up"></i>
+                </div>
+            </div>   
+            
+           
+            <!--Slideshow ends-->
+
+            
+        </main>
+        <!-- Control pannel (footer) starts here -->
+        <!-- <container id="controlPannel">
+          <div>
+            <div id="skip">
+              <a class="prev" onclick="plusSlides(-1)"><button>Prev</button></a>
+              <a class="next" onclick="plusSlides(1)"><button>Next</button></a>
+            </div>
+          </div>
+
+        </container> -->
+        
+
+        
+
+        <script src="scripts/landingScript.js"></script>
+    </body>
+
+</html>

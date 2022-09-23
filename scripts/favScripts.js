@@ -2,6 +2,9 @@
 
 console.log('Connected?');
 
+
+
+
 //Global variables
 let favSong;
 let favArtist;

@@ -1,22 +1,28 @@
 body  {
-    background-image: url("/images/landingBackground.jpg");
+    /* background-image: url("/images/lightBackground.jpg");
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+    background-color: black;
+    
+    
 }
 
 header {
     /* border: 1px solid black; */
-    
-    height: 10%;
+    background-color: #fff;
+    height: 15vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 #logo {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 150px;
-    height: 80px;
+    height: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,6 +69,7 @@ header {
 main {
     /* border: 1px solid red; */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -78,9 +85,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px;
-    max-width: 50%;
-    max-height: auto;
+    /* margin: 50px; */
+    margin-top: 10%;
    
     
 }
@@ -88,13 +94,15 @@ main {
 
 
 
-.trackArt {
+#trackArt {
     border: 3px solid pink;
     width:100%;
-    min-width: 300px;
-    max-width: 300px;
-    max-height: 300px;
-    min-height: 300px;
+    height: 100%;
+    min-width: 400px;
+    max-width: 400px;
+    max-height: 400px;
+    min-height: 400px;
+    border-radius: 5%;
     
 }
 .fade {
@@ -119,3 +127,124 @@ main {
     height: auto;
     
 }
+
+.player {
+    border: 1px solid black;
+    background-color: aqua;
+    width: 100vw;
+    height: 18vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+  }
+   
+  .details {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    width: 30%;
+    font-size: small;
+    /* margin-top: 25px; */
+  }
+   
+  .track-art {
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background-image: url("/images/playSymbol.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15%;
+  }
+
+  /* Changing the font sizes to suitable ones */
+.now-playing {
+    font-size: 1rem;
+  }
+   
+  .track-name {
+    font-size: 3rem;
+  }
+   
+  .track-artist {
+    font-size: 1.5rem;
+  }
+
+  /* Using flex to
+   align items in a horizontal direction */
+.buttons {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: x-small;
+    margin-bottom: 20px;
+   
+
+  }
+
+
+  .playpause-track,
+  .prev-track,
+  .next-track {
+    padding: 25px;
+    opacity: 0.8;
+   
+    /* Smoothly transition the opacity */
+    transition: opacity .2s;
+  }
+
+  #songNav {
+    /* border: 2px dashed green; */
+   
+    
+}
+
+#volpos {
+    display: flex;
+    justify-content: center;
+    
+    width: 30%;
+}
+
+  /* Define the slider width so that it scales */
+.slider_container {
+    /* border: 2px solid blue; */
+    width: 98%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .seek_slider {
+   
+    width: 100%;
+
+  }
+   
+  .volume_slider {
+    width: 70%;
+  }
+
+  /* Change the opacity when mouse is hovered */
+.playpause-track:hover,
+.prev-track:hover,
+.next-track:hover {
+  opacity: 1.0;
+}
+
+/* Change the mouse cursor to a pointer
+   when hovered over */
+   i.fa-play-circle,
+   i.fa-pause-circle,
+   i.fa-step-forward,
+   i.fa-step-backward {
+     cursor: pointer;
+   }
