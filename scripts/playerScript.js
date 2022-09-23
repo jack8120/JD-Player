@@ -184,6 +184,32 @@ function playpauseTrack() {
        track_art.style.backgroundImage = `url(${track_list[track_index].image})`;
   }
 
+
+  // Shuffle function
+  function shuffle() {
+
+    showTrack.removeChild(current_track); 
+    
+    let rand = Math.floor(Math.random() * (track_list.length-1 - 0) + 0);
+
+    track_index = rand;
+
+
+       insideElement.removeAttribute('src');
+       insideElement.setAttribute('src',track_list[track_index].path);
+       
+        
+       showTrack.appendChild(current_track);  
+       current_track.load();
+       current_track.play();
+       track_name.innerHTML = track_list[track_index].name;
+       track_artist.innerHTML = track_list[track_index].artist;
+       track_art.style.backgroundImage = `url(${track_list[track_index].image})`;
+    
+    
+    
+  }
+
   function seekTo() {
     // Calculate the seek position by the
     // percentage of the seek slider
