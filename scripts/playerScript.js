@@ -184,9 +184,9 @@ function playpauseTrack() {
        track_art.style.backgroundImage = `url(${track_list[track_index].image})`;
   }
 
-  function shuffle() {
 
-    
+  // Shuffle function
+  function shuffle() {
 
     showTrack.removeChild(current_track); 
     
@@ -194,7 +194,7 @@ function playpauseTrack() {
 
     track_index = rand;
 
-    
+
        insideElement.removeAttribute('src');
        insideElement.setAttribute('src',track_list[track_index].path);
        
@@ -206,7 +206,7 @@ function playpauseTrack() {
        track_artist.innerHTML = track_list[track_index].artist;
        track_art.style.backgroundImage = `url(${track_list[track_index].image})`;
     
-    //return track_list[Math.floor(Math.random() * track_list.length)];
+    
     
   }
 
