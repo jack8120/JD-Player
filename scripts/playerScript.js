@@ -37,29 +37,57 @@ let playable = document.getElementById('createdAudio');
 
 // Define the list of tracks that have to be played
 let track_list = 
-    [
+    [ 
         {
-            name: "1st track test",
-            artist: "JD player",
-            image: "../JDmp.jpeg",
-            path: '../sample1.mp3'
+            name: "Ready",
+            artist: "Le-Gang",
+            image: "../legang.jpeg",
+            path: '../le-gang-ready.mp3'
         },
         {
-            name: "2nd track test",
-            artist: "Guitar",
-            image: "../JDmp.jpeg",
-            path: '../second.mp3'
+            name: "Get Away",
+            artist: "Liqwyd",
+            image: "../getaway.jpeg",
+            path: '../liqwyd-get-away.mp3'
         },
         {
-            name: "3rd track test",
-            artist: "Rock",
-            image: "../JDmp.jpeg",
-            path: '../sample1.mp3'
+            name: "Highfly",
+            artist: "Jay Someday",
+            image: "../highfly.jpeg",
+            path: '../jay-someday-highfly.mp3'
+        },
+
+        {
+            name: "Workout",
+            artist: "Alyex",
+            image: "../workoutalex.jpeg",
+            path: '../alex-productions-workout.mp3'
+        },
+
+        {
+            name: "Sports Rock",
+            artist: "Alyex",
+            image: "../alexpro.jpeg",
+            path: '../alex-productions-sport-rock-workout-hard.mp3'
+        },
+
+        {
+            name: "Folk Traveller",
+            artist: "Essentials",
+            image: "../folk.jpeg",
+            path: '../alex-productions-folk-travel-vlog-folk.mp3'
+        },
+
+        {
+            name: "The Future",
+            artist: "MaxKo",
+            image: "../maxko.jpeg",
+            path: '../maxkomusic-building-the-future.mp3'
         },
 
     ]
     
-
+    //
 
 // Load track
 function loadTrack(track_index) {
@@ -160,7 +188,7 @@ function playpauseTrack() {
     // Calculate the seek position by the
     // percentage of the seek slider
     // and get the relative duration to the track
-    seekto = curr_track.duration * (seek_slider.value / 100);
+    seekTo = curr_track.duration * (seek_slider.value / 100);
    
     // Set the current track position to the calculated seek position
     curr_track.currentTime = seekTo;
