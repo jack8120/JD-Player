@@ -1,4 +1,5 @@
 body {
+    max-width: 100vw;
     
     
 }
@@ -44,20 +45,63 @@ header {
 
 main {
     /* border: 1px solid green; */
-    min-height: 1000px;
+    min-height: 100vh;
     background-image: url('/images/formBackground.jpg');
     background-size: cover;
     background-attachment: fixed;
     
     display: flex; 
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
 }
 
-#menu {
-    border: 1px solid green;
+#formBoxIn {
+    border: 1px solid blue;
+    background-color: whitesmoke;
+    opacity: 0.95;
+    max-width: 20vw;
+    min-width: 10%;
+    max-height: 250px;
+    min-height: 250px;
+    margin: 20px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    padding-bottom: 120px;
+    margin-bottom: 20vh;
+    margin-right: 5vw;
+    border-radius: 10px;
+}
 
+#myForm {
+    /* border: 3px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+} 
+
+#formBoxOut {
+    border: 1px solid blue;
+    background-color: whitesmoke;
+    opacity: 0.95;
+    max-width: 20vw;
+    min-width: 10%;
+    max-height: 250px;
+    min-height: 250px;
+    margin: 20px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    padding-bottom: 120px;
+    margin-bottom: 20vh;
+    margin-left: 5vw;
+    border-radius: 10px;
 }
 
 
@@ -67,38 +111,7 @@ main {
 
 
 
-#formboxin {
-    /* border: 1px solid blue; */
-    background-color: whitesmoke;
-    opacity: 0.95;
-    width: 50%;
-    max-height: 300px;
-    min-height: 300px;
-    margin: 50px;  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 100px;
-    margin-bottom: 300px;
-    border-radius: 10px;
-}
 
-#formboxout {
-    /* border: 1px solid blue; */
-    background-color: whitesmoke;
-    opacity: 0.95;
-    width: 50%;
-    max-height: 300px;
-    min-height: 300px;
-    margin: 50px;  
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    padding: 100px;
-    margin-bottom: 300px;
-    margin-right: 120px;
-    border-radius: 10px;
-}
 
 /* #formPic {
     border: 1px solid red;

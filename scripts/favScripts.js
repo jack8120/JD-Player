@@ -12,6 +12,7 @@ let favSong;
 let favArtist;
 let favGenre;
 let favDob;
+let reverseString;
 
 
 
@@ -70,11 +71,13 @@ function formSubmitted(event){
         return joinArray;
     }
 
+    reverseString(jackFave.favDob);
+
     
 
     //  console.log(jackFave.favSong);
     //  console.log(jackFave.favArtist);
-    document.getElementById('faveNames').innerHTML    = "Thankyou " + jackFave.favName + ". Your favourites are: ";
+    document.getElementById('faveNames').innerHTML    = "Thank you " + jackFave.favName + ". Your favourites are: ";
     document.getElementById('faveSongs').innerHTML    = "Your favourite song is: "   + jackFave.favSong;
     document.getElementById('faveArtists').innerHTML  = "Your favourite Artist is: " + jackFave.favArtist;
     document.getElementById('faveGenres').innerHTML   = "Your favourite Genre is: "  + jackFave.favGenre;

@@ -1,21 +1,22 @@
-console.log("go go go")
+// console.log("go go go")
 
 'use strict'
 
 // Select all the elements in the HTML page
 // and assign them to a variable
-let now_playing = document.getElementsByClassName("now-playing");
-let track_art = document.getElementsByClassName("track-art")[0];
-let track_name = document.getElementsByClassName("track-name")[0];
-let track_artist = document.getElementsByClassName("track-artist")[0];
+let now_playing    = document.getElementsByClassName("now-playing");
+let track_art      = document.getElementsByClassName("track-art")[0];
+let track_art_mini = document.getElementsByClassName("track-art-mini")[0];
+let track_name     = document.getElementsByClassName("track-name")[0];
+let track_artist   = document.getElementsByClassName("track-artist")[0];
  
-let playpause_btn = document.getElementsByClassName("playpause-track")[0];
-let next_btn = document.getElementsByClassName("next-track");
-let prev_btn = document.getElementsByClassName("prev-track");
+let playpause_btn  = document.getElementsByClassName("playpause-track")[0];
+let next_btn       = document.getElementsByClassName("next-track");
+let prev_btn       = document.getElementsByClassName("prev-track");
  
-let seek_slider = document.getElementsByClassName("seek_slider");
-let volume_slider = document.getElementsByClassName("volume_slider");
-let current_time = document.getElementsByClassName("current-time");
+let seek_slider    = document.getElementsByClassName("seek_slider");
+let volume_slider  = document.getElementsByClassName("volume_slider");
+let current_time   = document.getElementsByClassName("current-time");
 let total_duration = document.getElementsByClassName("total-duration");
 
 // Show track
@@ -44,18 +45,21 @@ let track_list =
         name: "Ready",
         artist: "Le-Gang",
         image: "../legang.jpeg",
+        imageM: "../legang.jpeg",
         path: '../le-gang-ready.mp3'
     },
     {
         name: "Get Away",
         artist: "Liqwyd",
         image: "../getaway.jpeg",
+        imageM: "../getaway.jpeg",
         path: '../liqwyd-get-away.mp3'
     },
     {
         name: "Highfly",
         artist: "Jay Someday",
         image: "../highfly.jpeg",
+        imageM: "../highfly.jpeg",
         path: '../jay-someday-highfly.mp3'
     },
 
@@ -63,6 +67,7 @@ let track_list =
         name: "Workout",
         artist: "Alyex",
         image: "../workoutalex.jpeg",
+        imageM: "../workoutalex.jpeg",
         path: '../alex-productions-workout.mp3'
     },
 
@@ -70,6 +75,7 @@ let track_list =
         name: "Sports Rock",
         artist: "Alyex",
         image: "../alexpro.jpeg",
+        imageM: "../alexpro.jpeg",
         path: '../alex-productions-sport-rock-workout-hard.mp3'
     },
 
@@ -77,6 +83,7 @@ let track_list =
         name: "Folk Traveller",
         artist: "Essentials",
         image: "../folk.jpeg",
+        imageM: "../folk.jpeg",
         path: '../alex-productions-folk-travel-vlog-folk.mp3'
     },
 
@@ -84,6 +91,7 @@ let track_list =
         name: "The Future",
         artist: "MaxKo",
         image: "../maxko.jpeg",
+        imageM: "../maxko.jpeg",
         path: '../maxkomusic-building-the-future.mp3'
     },
 
@@ -97,9 +105,10 @@ function loadTrack(track_index) {
     //resetValues();
     // setting attributes for the source element
     insideElement.setAttribute('src',track_list[track_index].path);
-    track_name.innerHTML = track_list[track_index].name;
-    track_artist.innerHTML = track_list[track_index].artist;
-    track_art.style.backgroundImage = `url(${track_list[track_index].image})`;
+    track_name.innerHTML                 = track_list[track_index].name;
+    track_artist.innerHTML               = track_list[track_index].artist;
+    track_art.style.backgroundImage      = `url(${track_list[track_index].image})`;
+    track_art_mini.style.backgroundImage = `url(${track_list[track_index].imageM})`;
     
     
 }
@@ -125,10 +134,10 @@ function playpauseTrack() {
     //console.log('1');
     current_track.play();
     isPlaying = true;
-    track_name.innerHTML = track_list[0].name;
-    track_artist.innerHTML = track_list[0].artist;
-    track_art.style.backgroundImage = `url(${track_list[0].image})`;// "url(" + track_list.image + ")"
-    
+    track_name.innerHTML                 = track_list[0].name;
+    track_artist.innerHTML               = track_list[0].artist;
+    track_art.style.backgroundImage      = `url(${track_list[0].image})`;// "url(" + track_list.image + ")"
+    track_art_mini.style.backgroundImage = `url(${track_list[0].imageM})`;
 
     //console.log('checking');
    
@@ -160,10 +169,10 @@ function playpauseTrack() {
        showTrack.appendChild(current_track);  
        current_track.load();
        current_track.play();
-       track_name.innerHTML = track_list[track_index].name;
-       track_artist.innerHTML = track_list[track_index].artist;
-       track_art.style.backgroundImage = `url(${track_list[track_index].image})`;
-      
+       track_name.innerHTML                 = track_list[track_index].name;
+       track_artist.innerHTML               = track_list[track_index].artist;
+       track_art.style.backgroundImage      = `url(${track_list[track_index].image})`;
+       track_art_mini.style.backgroundImage = `url(${track_list[track_index].imageM})`;
         // Go back to the first track if the
         // current one is the last in the track list
         
@@ -181,10 +190,11 @@ function playpauseTrack() {
        showTrack.appendChild(current_track);  
        current_track.load();
        current_track.play();
-       track_name.innerHTML = track_list[track_index].name;
-       track_artist.innerHTML = track_list[track_index].artist;
-       track_art.style.backgroundImage = `url(${track_list[track_index].image})`;
-  }
+       track_name.innerHTML                 = track_list[track_index].name;
+       track_artist.innerHTML               = track_list[track_index].artist;
+       track_art.style.backgroundImage      = `url(${track_list[track_index].image})`;
+       track_art_mini.style.backgroundImage = `url(${track_list[track_index].imageM})`;
+      }    
 
   function seekTo() {
     // Calculate the seek position by the
@@ -208,25 +218,25 @@ function playpauseTrack() {
 
 
 
-let slideIndex = 1;
-showSlides(slideIndex);
+// let slideIndex = 1;
+// showSlides(slideIndex);
 
-function plusSlides(n) {
-    showSlides(slideIndex += n);
-}
+// function plusSlides(n) {
+//     showSlides(slideIndex += n);
+// }
 
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-}
+// function currentSlide(n) {
+//     showSlides(slideIndex = n);
+// }
 
-function showSlides(n) {
-    let i;
-    let slides = document.getElementsByClassName("myTracks");
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    slides[slideIndex-1].style.display = "flex";
-}
+// function showSlides(n) {
+//     let i;
+//     let slides = document.getElementsByClassName("myTracks");
+//     if (n > slides.length) {slideIndex = 1}
+//     if (n < 1) {slideIndex = slides.length}
+//     for (i = 0; i < slides.length; i++) {
+//         slides[i].style.display = "none";
+//     }
+//     slides[slideIndex-1].style.display = "flex";
+// }
 
