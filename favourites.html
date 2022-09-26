@@ -8,7 +8,7 @@
     <body>
         <header>
             <div id="logo">
-               <a href="index.html" ><img id="logopic" src="images/logo.jpg" alt="logo"></a>
+               <a href="index2.html" ><img id="logopic" src="images/logo.png" alt="logo"></a>
         </div>
         <div id="title">
             <h1>Favourites</h1>
@@ -22,10 +22,13 @@
                 <form id="myForm" name="favouritesForm" onsubmit="formSubmitted(event)">
                     <h2>What kind of music would you like to see on 
                         JDPlayer?</h2><br>
-                    Favourite Song  : <input type="text" name="favSong" id="favSong" placeholder="Enter Favourite Song" required/> <br>
 
-                    Favourite Artist: <input type="text" name="favArtist" id="favArtist" placeholder="Enter Favourite Artist" required/> <br>
-                    <label> Choose your favourite Genre from the list: </label><select name="Genre" id="favGenre">
+                    Name:             <input type="text" name="favName"   id="faveName"   placeholder="Enter Name" required> <br>
+                    Favourite Song  : <input type="text" name="favSong"   id="faveSong"   placeholder="Enter Favourite Song" required/> <br>
+
+                    Favourite Artist: <input type="text" name="favArtist" id="faveArtist" placeholder="Enter Favourite Artist" required/> <br>
+                    
+                    <label> Choose your favourite Genre from the list: </label><select name="favGenre" id="faveGenre">
                         <option value="">--Choose an option--</option>
                         <option value="Pop">Pop</option>
                         <option value="Rock">Rock</option>
@@ -33,11 +36,8 @@
                         <option value="Jazz">Jazz</option>
                         <option value="Metal">Metal</option>
                     </select><br>
-                    <!-- Date of Birth   : <input type="date" name="DOB" required/> -->
-
-
-
-                    <br>
+                    Date of Birth   : <input type="date" name="favDob" id="faveDOB" required/><br>
+                    
                     <button type="submit">Submit</button>
                 </form> 
             </div>
@@ -49,11 +49,12 @@
         <div id="right">
             
             <div id="formboxout">
-                <h2>Your Favourites are: </h2><br>
-                <h5> <span id=faveSong></span></h5><br>
-                <h5> <span id=faveArtist></span></h5><br> 
-                <h5> <span id=faveGenre></span></h5><br>    
-                <h5> <span id=faveDOB></span></h5><br> 
+                <h3> <span id="faveNames"></span> </h3>
+                <br>
+                <h5> <span id=faveSongs></span></h5><br>
+                <h5> <span id=faveArtists></span></h5><br> 
+                <h5> <span id=faveGenres></span></h5><br>    
+                <h5> <span id=faveDOBs></span></h5><br> 
 
 
             </div>
