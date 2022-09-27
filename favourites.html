@@ -3,6 +3,7 @@
     <head>
         <title>Favourites</title>
         <link rel="stylesheet" href="style/favstyle.css">
+        <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
 
     </head>
     <body>
@@ -17,7 +18,7 @@
         </header>
 
         <main>
-            <!-- <div id="left"> -->
+          
             <div id="formBoxIn"> 
                 <form id="myForm" name="favouritesForm" onsubmit="formSubmitted(event)">
                     <h2>What kind of music would you like to see on 
@@ -40,13 +41,10 @@
                     
                     <button type="submit">Submit</button>
                 </form> 
-            <!-- </div> -->
-            <!-- <div id="formPic">
-                <img src="https://place-hold.it/x/ddd" alt="picture">
-            </div> -->
+            
         </div>
 
-        <!-- <div id="right"> -->
+      
             
             <div id="formBoxOut">
                 <h3> <span id="faveNames"></span> </h3>
@@ -58,8 +56,10 @@
 
 
             </div>
-        <!-- </div> -->
-        
+
+            <!-- <div>
+                <canvas id="myChart"></canvas>
+              </div> -->
 
         </main>
         <script src="scripts/favScripts.js"></script>
