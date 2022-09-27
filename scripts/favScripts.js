@@ -64,6 +64,13 @@ function formSubmitted(event){
     favouriteGenreElement.innerHTML  = jackFave.favGenre;
     favouriteDobElement.innerHTML    = jackFave.favDob;
 
+    window.localStorage.setItem("jackFave", JSON.stringify(jackFave));
+
+    let newjackFave = window.localStorage.getItem("jackFave");
+        console.log(JSON.parse(newjackFave));  
+    
+    
+    
     function reverseString(str) {
         var splitString = str.split("");
         var reverseArrray = splitString.reverse();
@@ -83,9 +90,27 @@ function formSubmitted(event){
     document.getElementById('faveGenres').innerHTML   = "Your favourite Genre is: "  + jackFave.favGenre;
     document.getElementById('faveDOBs').innerHTML     = "Your date of birth is: "    + jackFave.favDob;
     //  
-    // document.getElementById("myForm").reset();
+    document.getElementById("myForm").reset();
 }
 
+// const labels = [
+//     jackFave.favGenre
+//   ];
 
+//   const data = {
+//     labels: labels,
+//     datasets: [{
+//       label: 'Most requested Genre',
+//       backgroundColor: 'rgb(255, 99, 132)',
+//       borderColor: 'rgb(255, 99, 132)',
+//       data: [jackFave.favGenre],
+//     }]
+//   };
+
+//   const config = {
+//     type: 'line',
+//     data: data,
+//     options: {}
+//   };
 
   

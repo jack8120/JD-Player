@@ -5,6 +5,24 @@ body {
     transition: background-color .5s;
   }
 
+  #logo {
+    /* border: 5px solid red; */
+    width: 150px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logopic {
+    width:150px;
+    height: auto;
+    max-width:150px;
+    max-height: 200px;
+    
+    /* object-fit: contain; */
+}
+
   .player {
     height: 95vh;
     display: flex;

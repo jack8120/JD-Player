@@ -116,11 +116,13 @@ main {
   background-size: cover;
   background-position: center;
   border-radius: 15%;
-  position: fixed;
-  left: 20px;
 }
 
-.fade {
+#trackInfo {
+  border: 2px solid green;
+}
+
+/* .fade {
     animation-name: fade;
     animation-duration: 1.5s;
   }
@@ -128,20 +130,20 @@ main {
   @keyframes fade {
     from {opacity: .5} 
     to {opacity: 1}
-  }
+  } */
 
-.texts {
+/* .texts {
     
-}
+} */
 
-#controlPannel {
-    /* border: 1px solid green; */
+/* #controlPannel {
+    border: 1px solid green;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     height: auto;
     
-}
+} */
 
 .player {
     border: 1px solid black;
@@ -165,12 +167,15 @@ main {
     align-items: center;
     flex-direction: row;
     justify-content: center;
+    height: 12vh;
     width: 30%;
     font-size: small;
+    left: 10px;
     /* margin-top: 25px; */
   }
    
   .track-art {
+
     margin: 10px;
     height: 100px;
     width: 100px;
@@ -220,14 +225,11 @@ main {
   }
 
   #songNav {
-   
-   
+    
     
 }
 
 #volpos {
-    display: flex;
-    justify-content: center;
     
     width: 30%;
 }
